@@ -12,8 +12,8 @@ public class TestBase {
     @BeforeAll
     public static void setUpMain(){
         Configuration.browserSize = "1920x1080";
-        Configuration.pageLoadTimeout = 10000;
-        Configuration.timeout = 10000;
+        Configuration.pageLoadTimeout = 15000;
+        Configuration.timeout = 15000;
         Configuration.baseUrl= "https://shop.kz";
 //        Configuration.browser= "firefox";
 //        Configuration.holdBrowserOpen = true;
